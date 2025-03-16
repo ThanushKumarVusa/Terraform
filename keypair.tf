@@ -1,0 +1,5 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "terraform-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzHduqhrxzJ5ucEaqJZ2BAQqMr3Tm4JvSit6qOlzgj+IFKFJXOn48UWBVXGC6YtqXujoDywU5YA7+HvyFDi9Je+BZEMPbgZmpjwzdJIsdEO0TXKJeeeKzCdqDjxZ0d8AWBEFAKS863xZY41yMf4HHKGhNCCrY6+4Rmhr6z4huu96+nZ0N/5BtgATGga2s/4C7T6rVkiYRUKGpazpfu3UcfPubXCk5xpnhR9Qe9rVoiBKp0YQNSfM+WQDQr6nfEaHQqyEMDuPcsiy/EMfPSMuhpQCv1E7LPVCi4rOGt99qjNrO8zeEdlGhaxIhzef8BKZPzC9tBa15ksJ0CPor46jRlYXGAuUJTgmj5CKJDTQ/Wd7rtMAm9XIotCxjMtIDgjdKxhmnewNJl2z1lepPWT9zLCu0ca19jOm0y08+stD7/hjYZXvs9zH77yzTKeg66hJE8QS1XKECnn2L2ZhByBZrnvt/qKCdi493tV+69MDaZvitoxDhsa9q/eHWnUpUfHRM= kthan@TonyHere"
+
+}
